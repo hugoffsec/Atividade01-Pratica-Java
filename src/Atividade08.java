@@ -3,21 +3,9 @@ import java.util.Scanner;
 public class Atividade08 {
     public static void main(String[] args) {
         String[] nomes = new String[3];
-        nomes[0] = "";
-        nomes[1] = "";
-        nomes[2] = "";
         double[] precos = new double[3];
-        precos[0] = 0;
-        precos[1] = 0;
-        precos[2] = 0;
         double[] quantidades = new double[3];
-        quantidades[0] = 0;
-        quantidades[1] = 0;
-        quantidades[2] = 0;
         double[] subtotais = new double[3];
-        subtotais[0] = 0;
-        subtotais[1] = 0;
-        subtotais[2] = 0;
         double totalfinal = 0;
 
         Scanner sc = new Scanner(System.in);
